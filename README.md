@@ -26,9 +26,9 @@ Shop cart - Angular Frontend
 ## Funcionamiento
 - Al entrar a la ruta principal de la aplicación o a la ruta `/shop` se carga la lista de productos dese el servidor y se crea un nuevo registro en la tabla **carts** con status *pending*.  
 
-![productos](https://github.com/cczambrano12/shop_cart_frontend/blob/master/img1.jpg?raw=true)
+![productos](https://github.com/cczambrano12/shop_cart_frontend/blob/master/img1.JPG?raw=true)
 
-<img src=“img1.jpg” raw=true alt=“Products” />  
+<img src=“img1.JPG” raw=true alt=“Products” />  
 
 - Desde esta vista se pueden agregar, modificar y eliminar elementos del carrito.
 - Al ar click en el botón *Checkout* se cambia el estado del carrito actual a *completed*, se crea el registro correspondiente en la tabla **product_cars**, y se redirige el usuario a la routa `/checkout`.
