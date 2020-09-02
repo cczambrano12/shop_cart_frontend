@@ -1,27 +1,25 @@
-# Frontend
+# shop_cart_frontend
+Shop cart - Angular Frontend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.0.
+## Requisitos
+- Instalación de node y npm.
+- Instalación de Angular 9 o superior.
+- Backend [shop_cart_api](https://github.com/cczambrano12/shop_cart_api])
 
-## Development server
+## Instalación y ejecución
+1. Descargue el proyecto:  
+`git clone https://github.com/cczambrano12/shop_cart_frontend shop_cart_frontend`  
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+2. Ubíquese dentro de la carpeta del proyecto:  
+`cd shop_cart_frontend`  
 
-## Code scaffolding
+3. Instale las dependencias del proyecto:  
+`npm install`  
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+4. Ejecute el servidor del backend [shop_cart_api](https://github.com/cczambrano12/shop_cart_api])
 
-## Build
+5. Ejecute el servidor de desarrollo. Por defecto Laravel ejecuta el servidor de desarrollo en *localhost:8000*.    
+`ng serve`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+6. Abra la aplicación web en *http://localhost:4200/*
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
