@@ -4,7 +4,7 @@ Shop cart - Angular Frontend
 ## Requisitos
 - Instalación de node y npm.
 - Instalación de Angular 9 o superior.
-- Backend [shop_cart_api](https://github.com/cczambrano12/shop_cart_api.git])
+- Backend shop_cart_api (https://github.com/cczambrano12/shop_cart_api.git])
 
 ## Instalación y ejecución
 1. Descargue el proyecto:  
