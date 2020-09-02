@@ -24,6 +24,7 @@ Shop cart - Angular Frontend
 6. Abra la aplicación web en *http://localhost:4200/*
 
 ## Funcionamiento
-- Al entrar a la ruta principal de la aplicación o a la ruta `/shop` se carga la lista de productos dese el servidor y se crea un nuevo registro en la tabla **carts** con status *pending*.
+- Al entrar a la ruta principal de la aplicación o a la ruta `/shop` se carga la lista de productos dese el servidor y se crea un nuevo registro en la tabla **carts** con status *pending*.  
+![productos](img1.jpg?raw=true "Title")
 - Desde esta vista se pueden agregar, modificar y eliminar elementos del carrito.
 - Al ar click en el botón *Checkout* se cambia el estado del carrito actual a *completed*, se crea el registro correspondiente en la tabla **product_cars**, y se redirige el usuario a la routa `/checkout`.
