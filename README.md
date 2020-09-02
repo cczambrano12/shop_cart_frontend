@@ -28,7 +28,10 @@ Shop cart - Angular Frontend
 
 ![productos](https://github.com/cczambrano12/shop_cart_frontend/blob/master/img1.JPG?raw=true)
 
-<img src=“img1.JPG” raw=true alt=“Products” />  
-
 - Desde esta vista se pueden agregar, modificar y eliminar elementos del carrito.
+
+![productos](https://github.com/cczambrano12/shop_cart_frontend/blob/master/img2.JPG?raw=true)
+
 - Al ar click en el botón *Checkout* se cambia el estado del carrito actual a *completed*, se crea el registro correspondiente en la tabla **product_cars**, y se redirige el usuario a la routa `/checkout`.
+
+![productos](https://github.com/cczambrano12/shop_cart_frontend/blob/master/img3.JPG?raw=true)
