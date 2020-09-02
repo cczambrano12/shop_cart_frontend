@@ -4,7 +4,7 @@ Shop cart - Angular Frontend
 ## Requisitos
 - Instalación de node y npm.
 - Instalación de Angular 9 o superior.
-- Backend [shop_cart_api](https://github.com/cczambrano12/shop_cart_backend])
+- Backend [shop_cart_api](https://github.com/cczambrano12/shop_cart_backend)
 
 ## Instalación y ejecución
 1. Descargue el proyecto:  
@@ -16,7 +16,7 @@ Shop cart - Angular Frontend
 3. Instale las dependencias del proyecto (este paso toma tiempo):  
 `npm install`  
 
-4. Ejecute el servidor del backend [shop_cart_api](https://github.com/cczambrano12/shop_cart_backend])
+4. Ejecute el servidor del backend [shop_cart_api](https://github.com/cczambrano12/shop_cart_backend)
 
 5. Ejecute el servidor de desarrollo. Por defecto Laravel ejecuta el servidor de desarrollo en *localhost:8000*.    
 `ng serve`
