@@ -18,7 +18,7 @@ Shop cart - Angular Frontend
 
 4. Ejecute el servidor del backend [shop_cart_backend](https://github.com/cczambrano12/shop_cart_backend)
 
-5. Ejecute el servidor de desarrollo. Por defecto Laravel ejecuta el servidor de desarrollo en *localhost:8000*.    
+5. Ejecute el servidor de desarrollo.   
 `ng serve`
 
 6. Abra la aplicación web en *http://localhost:4200/*
