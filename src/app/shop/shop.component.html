@@ -1,0 +1,16 @@
+  <h1 style="color:darkslategray">Lista de Compras</h1>
+  <app-cart
+    [cartItems]="cartItems"
+    [cartTotal]="cartTotal"
+    (cartItemDeleted)="onCartItemDeleted($event)"
+    (cartItemChanged)="onCartItemChanged($event)"
+    (cartCheckout)="onCartCheckout($event)"
+    >
+  </app-cart>
+
+  <h1 style="color:darkslategray">Productos</h1>
+  <app-product 
+    [productItem]="productItem"
+    (cartUpdated)="onCartUpdated($event)"
+    >
+  </app-product>

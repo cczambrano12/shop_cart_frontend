@@ -1,0 +1,31 @@
+<div class="cart-wrapper">
+  <table class="table">
+    <!-- Default panel contents -->
+    <div class="panel-heading">
+      <div class="h5" style="width: 30%">Item</div>
+      <div class="h5" style="width: 17.5%">Precio</div>
+      <div class="h5" style="width: 17.5%">Cantidad</div>
+      <div class="h5" style="width: 17.5%">Precio Total</div>
+      <div class="h5" style="width: 17.5%">Remover</div>
+      <div></div>
+    </div>
+
+    <!-- Table -->
+    <div class="list-group pb-3">
+      <app-cartitem class="list-group-item" 
+          *ngFor="let item of cartItems; let i = index" 
+          [cartItem]="item"
+          (cartItemDeleted)="onCartItemDeleted($event)" 
+          (cartItemChanged)="onCartItemChanged($event)">
+      </app-cartitem>
+    </div>
+    <div class="panel-footer">
+      <button class="btn btn-outline-info float-right mb-3 d-inline-block ml-3"
+          (click)="onCheckout()"
+          >
+          Checkout
+      </button>
+      <h4 class="d-inline-block mr-4 pr-4" style="color:teal">Total $ {{cartTotal|number}}</h4>
+    </div>
+  </table>
+</div>

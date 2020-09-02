@@ -1,0 +1,23 @@
+<div class="row product-wrapper">
+  <div class="col-sm-6 col-md-4 col-lg-3 product-item"
+    *ngFor="let item of productItem"  >
+    <div class="thumbnail pb-4 mb-4">
+      <img [src]="item.imageUrl"
+        alt="{{item.name}}">
+      <div class="caption p-2">
+        <h5>{{item.name}}</h5>
+        <p>{{item.description}}</p>
+        <h6>
+          Precio $ {{item.price | number}}
+        </h6>
+        <button class="btn btn-outline-info"
+          id={{item.id}}
+          (click)="onCartUpdated($event)"
+          >
+          Agregar al Carrito
+        </button>
+      </div>
+    </div>
+  </div>
+  
+</div>

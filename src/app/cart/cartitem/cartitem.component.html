@@ -1,0 +1,29 @@
+<div class="cart-item-wrapper"
+    [ngStyle]="{color: 'blue'}"  
+    >
+    <div style="width: 30%">
+      {{cartItem.name}}
+    </div>
+    <div style="width: 17.5%">
+      $ {{cartItem.price | number}} 
+    </div>
+    <div style="width: 17.5%">
+      <input type="number"
+        value={{cartItem.quantity}}
+        min=1
+        id={{cartItem.id}}
+        [(ngModel)]="cartItem.quantity"
+        (change)="onCartItemChanged($event)"
+        >
+    </div>
+    <div style="width: 17.5%">
+      $ {{cartItem.quantity * cartItem.price | number}} 
+    </div>
+    <div style="width: 17.5%">
+      <button type="button" class="btn btn-info btn-sm" aria-label="Left Align" id={{cartItem.id}}
+        (click)="onCartItemDeleted($event)">
+        X
+      </button>      
+    </div>
+  </div>
+  
